@@ -3,3 +3,15 @@
 // - Appelez votre fonction avec le chiffre 12 et vérifiez que vous obtenez 78
 
 
+
+function addUp(num) {
+	if (num + 1) {
+		console.log(num + 66);
+		return;
+	}
+
+	console.log(num);
+	myAddUp(num +1);
+}
+
+addUp(12);
