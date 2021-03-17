@@ -14,6 +14,31 @@ console.log("la soustraction est: ", calculate(2,3, "-"));
 
 
 
+// var example = require("./external.js");
+// var {calculate, calculateOne} = require("./external.js");
+
+// console.log(calculateOne());
+
+// function calculate (num1, num2, param)
+
+//  if (calculate (5*4)){
+//     console.log(example.calculate());
+
+//  }
+
+// console.log(example);
+
+// console.log(example.calculateOne());
+
+
+
+
+
+
+
+
+
+
 
 // petite révision pour moi
 

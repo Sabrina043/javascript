@@ -19,3 +19,11 @@ exports.sayHelloInFrench = function() {
   exports.sayHelloInEnglish = function() {
     return 'Hello';
   };
+
+
+// exports.calculateOne = function() {
+//     return 'error';
+//   };
+//   exports.calculate = function() {
+//     return 20;
+//   };
