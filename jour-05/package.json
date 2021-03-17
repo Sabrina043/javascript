@@ -1,7 +1,6 @@
 {
   "name": "jour-05",
   "version": "1.0.0",
-  "description": "",
   "main": "demoNode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
