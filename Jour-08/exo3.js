@@ -11,7 +11,7 @@ var request = require("request");
 function catchPokemon (id){
 
 
-    request.get("https://pokeapi.co/api/v2/pokemon?offset=300&limit=100", function (err, res, body) {
+    request.get("https://pokeapi.co/api/v2/pokemon?offset=600&limit=100", function (err, res, body) {
 
         var pokemonGo = JSON.parse(body);
 
@@ -20,4 +20,4 @@ function catchPokemon (id){
     });
 }
 
-catchPokemon(45)
+catchPokemon(25)
