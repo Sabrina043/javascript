@@ -3,8 +3,8 @@
 // prompt.start();
 
 var grid = [
-    
-    [ rover , " ", " ", " ", " ", " ", " ", " ", " ", " "],
+
+    [rover, " ", " ", " ", " ", " ", " ", " ", " ", " "],
     [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
     [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
     [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
@@ -69,14 +69,21 @@ turnRight(rover);
 
 
 
-function movForward(myRover){
+function movForward(myRover) {
 
-    myRover.x = 0
+    myRover.x = 10
 
 
-    console.log(myRover)
+    if (myRover.x === "N") {
+
+        for (var i = 0; i <= myRover.x; i++) {
+            rover = myRover + i
+
+        }
+        console.log(myRover)
+    }
 
 }
 
-movForward(rover)
+movForward(rover.length)
 
