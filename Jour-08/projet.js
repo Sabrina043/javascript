@@ -73,17 +73,14 @@ function movForward(myRover) {
 
     myRover.x = 10
 
-
-    if (myRover.x === "N") {
-
-        for (var i = 0; i <= myRover.x; i++) {
-            rover = myRover + i
+        for (var i = 0; i <= 10; i++) {
+          
+            console.log(myRover)
 
         }
-        console.log(myRover)
-    }
+    
 
 }
 
-movForward(rover.length)
+movForward(rover)
 

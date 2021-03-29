@@ -4,8 +4,6 @@
 // - Une fois fini, rajoutez un autre algorithme pour obtenir le même resultat mais en convertissant `roundedNumber` en string et en utilissant `substring`
 
 
-// j'ai besoin d'avoir plus de temps pour comprendre cet exercice
-
 
 
 var roundedNumber = 3.6;
